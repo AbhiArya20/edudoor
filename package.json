@@ -1,5 +1,5 @@
 {
-  "name": "my-turborepo",
+  "name": "edudoor",
   "private": true,
   "scripts": {
     "build": "turbo build",
