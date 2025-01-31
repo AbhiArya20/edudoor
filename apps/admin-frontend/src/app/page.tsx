@@ -12,7 +12,7 @@ export default function Home() {
               src/app/page.tsx
             </code>
           </li>
-          <li>Save and see your changes instantly.</li>
+          <li>Save and see your changes instantly. ok brother</li>
         </ol>
 
         <div className="flex flex-col items-center gap-4 sm:flex-row">
