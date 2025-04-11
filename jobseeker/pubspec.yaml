@@ -1,0 +1,62 @@
+name: jobseeker
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.4 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  flutter_onboarding_slider: ^1.0.11
+  responsive_sizer: ^3.3.1
+  size_helper: ^2.0.0
+  firebase_crashlytics: ^4.0.4
+  firebase_core: ^3.3.0
+  logger: ^2.4.0
+  flutter_bloc: ^8.1.6
+  get: ^4.6.6
+  google_fonts: ^6.2.1
+  firebase_analytics: ^11.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+  icons_launcher: ^2.1.7
+  rename: ^3.0.2
+  flutter_native_splash: ^2.4.1
+  device_preview: ^1.2.0
+
+# dart run icons_launcher:create
+icons_launcher:
+  image_path: "assets/images/edudoor_jobseeker_icon.png"
+  platforms:
+    android:
+      enable: true
+    ios:
+      enable: true
+
+# dart run flutter_native_splash:create
+# dart run flutter_native_splash:remove
+flutter_native_splash:
+  color: "#ffffff"
+  color_dark: "#ffffff"
+  image: assets/images/edudoor_jobseeker_icon.png
+  image_dark: assets/images/edudoor_jobseeker_icon.png
+  android_12:
+    color: "#ffffff"
+    color_dark: "#ffffff"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
